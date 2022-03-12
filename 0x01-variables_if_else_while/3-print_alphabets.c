@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * desc: Program uses `putchar` func to print the alphabet in lowercase then uppercase.
+ * Program uses `putchar` func to print the alphabet in lowercase and uppercase
  * Return: Always 0 (Success)
  */
 int main(void)
