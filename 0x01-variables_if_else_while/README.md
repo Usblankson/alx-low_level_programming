@@ -1,2 +1,2 @@
 # ALX Low Level Programming
- C variables, If-esle and while 
+ C variables, If-esle and while  
