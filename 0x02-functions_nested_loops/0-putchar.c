@@ -1,13 +1,20 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - Entry main
- * desc - Program prints _putchar
- *Return: 0
+ * desc - Program prints _putchar, followed by a new line.
+ * Return: 0
  */
 int main(void)
 {
-	char s[] = "_putchar";
+	char *s = "_putchar";
+        while (*s)
+	{
+		_putchar(*s);
+		s++;
+	}
 
-	printf("%s", s);
-	putchar('\n');
+	_putchar('\n');
+
+	return (0);
 }
