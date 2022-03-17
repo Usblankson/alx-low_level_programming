@@ -17,7 +17,7 @@ int main(void)
 	{
 		if (counter == 50)
 		{
-			printf("%lu \n", j);
+			printf("%lu\n", j);
 		}
 		else
 		{
